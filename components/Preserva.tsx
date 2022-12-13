@@ -1,6 +1,6 @@
-import { FaBeer } from 'react-icons/fa';
+import { FC } from 'react';
 
-const Preserva = () => {
+const Preserva: FC = () => {
   return (
     <div className='flex mt-9  mx-96'>
       <img  src="https://corporacionfloresac.com.pe/images/sampledata/asimages/portadaintro.jpg"/>

@@ -2,9 +2,6 @@ import { FC } from 'react';
 import Head from 'next/head';
 import Navbar from './Navbar';
 import HeaderTop from './HeaderTop';
-import Baner from '../baner';
-import EquiposT from '../EquiposT';
-import Preserva from '../Preserva';
 
 interface Props {
   title: string;
@@ -34,12 +31,6 @@ const Header: FC<Props> = ({ title }) => {
       <header>
         <Navbar />
       </header>
-      <body>
-        <Baner />
-        <EquiposT />
-        <Preserva />
-      </body>
-      
     </>
   );
 };

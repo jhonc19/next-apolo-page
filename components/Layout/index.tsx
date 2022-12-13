@@ -8,10 +8,9 @@ interface Props {
 
 const Layout: FC<Props> = ({ title, children }) => {
   return (
-    <> 
-      <Header title={title}/>   
+    <>
+      <Header title={title} />
       {children}
-      
     </>
   );
 };

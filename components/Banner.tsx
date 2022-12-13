@@ -1,7 +1,8 @@
-const baner = () => {
+import { FC } from 'react';
+const Banner: FC = () => {
   return (
     <>
-      <div className="flex justify-center ">
+      <div className="flex justify-center">
         <img
           className="w-full h-3/5 "
           src="https://corporacionfloresac.com.pe/images/sampledata/asimages/slider/banner/banner1a.jpg"
@@ -12,4 +13,4 @@ const baner = () => {
     </>
   );
 };
-export default baner;
+export default Banner;

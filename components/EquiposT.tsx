@@ -1,5 +1,6 @@
+import { FC } from 'react';
 
-const EquiposT = () => {
+const EquiposT: FC = () => {
   return (
     <section className='flex justify-center'><article>
       <div>
